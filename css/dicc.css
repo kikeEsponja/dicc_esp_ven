@@ -59,3 +59,18 @@ button {
     border-radius: 10px;
     width: 100%;
 }
+@media (min-width: 200px) {
+    h1, h2{
+        font-size: 1.5rem;
+    }
+    .contenedor-elementos{
+        width: 100%;
+        padding: 0;
+    }
+    .resultado{
+        width: 40%;
+        font-size: 1.5rem;
+        height: 150px;
+        top: 70%;
+    }
+}
