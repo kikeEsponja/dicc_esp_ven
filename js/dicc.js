@@ -5,7 +5,7 @@ const phrases = {
     "Debes elegir": "Deja el culipandeo",
     "Flojera": "Caligüeva",
     "Es una molestia": "Es una ladilla",
-    "Es una situacion_confusa": "Es un arroz con mango",
+    "Es una situacion confusa": "Es un arroz con mango",
     "Se salió de control": "Se formó un cojeculo",
     "Me vengare": "Lo agarro en la bajaíta",
     "Eso está buenisimo": "Está arrecho",
