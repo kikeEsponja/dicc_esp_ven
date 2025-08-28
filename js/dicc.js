@@ -27,6 +27,7 @@ const phrases = {
     "Persona con contactos": "Enchufao",
     "Creído": "Mojoniao",
     "Despistado": "Aguevoniao",
+    "No te lo permitiré": "Me lo vas a mamar",
     "Usted está equivocado": "Está meando fuera del perol",
     "Te ha quedado muy bien": "Te quedó de pinga / Te la comiste",
     "Se fue muy rápido": "Dejó la peluca",
@@ -40,7 +41,11 @@ const phrases = {
     "Eso está muy lejos": "Eso queda en el quinto coño",
     "Eso está muy junto": "Eso está amuñuñao",
     "No te creo nada": "Siiii Luiiis",
-    "Se hace el desentendido": "Se hace el loco / Se hace el Willy Meys",
+    "Se hace el desentendido": "Se hace el loco / Se hace el Willie Mays",
+    "Anda a molestar a otro lugar": "Zapatea pa otro lado",
+    "Estoy cansado": "Estoy mamao",
+    "Estoy harto": "Sácamelo",
+    "Otra vez con lo mismo?": "Vas a seguir Abigail?",
 }
 
 let boton = document.createElement("button");
