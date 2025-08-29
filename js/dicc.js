@@ -2,6 +2,7 @@ const phrases = {
     "Amigo": "Pana",
     "Delator": "Pajúo",
     "Pertenencias": "Macundales",
+    "Vigilante": "Guachimán",
     "Debes elegir": "Deja el culipandeo",
     "Flojera": "Caligüeva",
     "Es una molestia": "Es una ladilla",
@@ -44,7 +45,7 @@ const phrases = {
     "Se hace el desentendido": "Se hace el loco / Se hace el Willie Mays",
     "Anda a molestar a otro lugar": "Zapatea pa otro lado",
     "Estoy cansado": "Estoy mamao",
-    "Estoy harto": "Sácamelo",
+    "Basta con eso": "Sácamelo",
     "Otra vez con lo mismo?": "Vas a seguir Abigail?",
 }
 
