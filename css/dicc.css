@@ -32,12 +32,14 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 3rem;
     font-weight: bold;
     color: #0f0;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#resultado{
+    font-size: 40px;
 }
 .hero {
     position: relative;
@@ -63,7 +65,12 @@ button {
     border-radius: 10px;
     width: 100%;
 }
-@media (min-width: 200px) {
+@media (max-width: 400px) {
+    #resultado{
+        font-size: 30px;
+    }
+}
+@media (max-width: 200px) {
     h1, h2{
         font-size: 1.5rem;
     }
@@ -73,8 +80,10 @@ button {
     }
     .resultado{
         width: 40%;
-        font-size: 1.5rem;
         height: 150px;
         top: 70%;
+    }
+    #resultado{
+        font-size: 20px;
     }
 }

@@ -2,12 +2,14 @@ const phrases = {
     "Amigo": "Pana",
     "Delator": "Pajúo",
     "Pertenencias": "Macundales",
+    "Mezquino": "Pichirre",
     "Vigilante": "Guachimán",
     "Debes elegir": "Deja el culipandeo",
     "Flojera": "Caligüeva",
     "Es una molestia": "Es una ladilla",
     "Es una situacion confusa": "Es un arroz con mango",
     "Se salió de control": "Se formó un cojeculo",
+    "Se ha confundido":"Se volvió un culo",
     "Me vengare": "Lo agarro en la bajaíta",
     "Eso está buenisimo": "Está arrecho",
     "Eso está muy bueno": "Eso está de pinga",
@@ -47,6 +49,8 @@ const phrases = {
     "Estoy cansado": "Estoy mamao",
     "Basta con eso": "Sácamelo",
     "Otra vez con lo mismo?": "Vas a seguir Abigail?",
+    "Te haces pasar por dulce y afectiva":"Dulcito el mamón",
+    "No sea entrometido":"Echale Sal!",
 }
 
 let boton = document.createElement("button");
