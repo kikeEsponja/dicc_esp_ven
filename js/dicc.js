@@ -5,6 +5,7 @@ const phrases = {
     "Mezquino": "Pichirre",
     "Vigilante": "Guachimán",
     "Debes elegir": "Deja el culipandeo",
+    "estoy de acuerdo":"Sí va",
     "Flojera": "Caligüeva",
     "Es una molestia": "Es una ladilla",
     "Es una situacion confusa": "Es un arroz con mango",
@@ -51,6 +52,15 @@ const phrases = {
     "Otra vez con lo mismo?": "Vas a seguir Abigail?",
     "Te haces pasar por dulce y afectiva":"Dulcito el mamón",
     "No sea entrometido":"Echale Sal!",
+    "Su pareja le ha engañado":"Le soplaron el bistec",
+    "Le han estafado":"Le metieron un paquete chileno",
+    "Lo han robado":"Lo tumbaron",
+    "El sol está intenso":"Está haciendo la pepa'e sol",
+    "Llueve a cántaros":"Está cayendo un palo de agua",
+    "Hace todo bien":"Es un vergatario",
+    "Se ha desmayado":"Le dio un yeyo",
+    "No deja usted ver":"Carne de burro no es trasparente",
+    "Su pareja le ha terminado":"Lo mandaron pal coño",
 }
 
 let boton = document.createElement("button");
