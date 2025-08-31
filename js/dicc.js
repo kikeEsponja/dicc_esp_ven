@@ -94,3 +94,22 @@ Object.keys(phrases).forEach(id => {
         document.getElementById('resultado').innerText = phrases[id];
     });
 });
+
+let buscar = document.getElementById('buscar');
+let encontrar = document.getElementById('botones');
+buscar.addEventListener('input', function(){
+    let letra = buscar.value.toLowerCase();
+    if(letra.length > 1){
+        buscar.value = letra.charAt(0);
+        letra = letra.charAt(0);
+    }
+
+    Object.keys(phrases).forEach(key => {
+        const boton = document.getElementById(key);
+        if(key.toLowerCase().startsWith(letra)){
+            boton.style.display = 'inline-block';
+        }else{
+            boton.style.display = 'none';
+        }
+    });
+});
