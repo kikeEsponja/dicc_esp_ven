@@ -79,6 +79,11 @@ input{
     border-radius: 10px;
     width: 100%;
 }
+@supports (-webkit-touch-callout: none){
+    .hero{
+        background-attachment: scroll;
+    }
+}
 /*@media (max-width: 400px) {
     #resultado{
         font-size: 30px;
