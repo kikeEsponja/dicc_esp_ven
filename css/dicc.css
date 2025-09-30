@@ -19,6 +19,14 @@ button {
     cursor: pointer;
     border-radius: 20px;
 }
+button:hover{
+    background: #ccc;
+}
+.quedarse_verde{
+    background: #999;
+    /*color:#f00;*/
+    font-weight: 600;
+}
 .resultado {
     display: flex;
     text-align: center;

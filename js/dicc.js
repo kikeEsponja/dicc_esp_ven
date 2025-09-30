@@ -19,6 +19,7 @@ const phrases = {
     "Basta con eso": "Sácamelo",
     "Corre muy rapido": "Va esmojonao",
     "Creo que es hora de partir":"¿Y si hacemos como que nos vamos?",
+    "Costó mucho conseguir eso":"Costó una bola y parte de otra",
     "Debes elegir": "Deja el culipandeo",
     "El sol está intenso":"Está haciendo la pepa'e sol",
     "Es homosexual": "Es marico / Es pargo",
@@ -98,9 +99,17 @@ for (const [key, value] of Object.entries(phrases)) {
     document.querySelector(".botones").appendChild(boton);
 }
 
+let quedarseVerde = null;
+
 Object.keys(phrases).forEach(id => {
-    document.getElementById(id).addEventListener('click', () => {
+    const boton = document.getElementById(id);
+    boton.addEventListener('click', () => {
         document.getElementById('resultado').innerText = phrases[id];
+        if(quedarseVerde){
+            quedarseVerde.classList.remove('quedarse_verde');
+        }
+        boton.classList.add('quedarse_verde');
+        quedarseVerde = boton;
     });
 });
 
